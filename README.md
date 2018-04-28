@@ -4,17 +4,23 @@ NoRegisterMail
 ### Shopversion
 OXID eShop 6
 
+Zur OXID 4-Version: [Klick](../../tree/oxid4)
+
+
 ### Features
 Bei Neuregistrierung wird keine sinnlose Bestätigungs-Email mehr versandt.
 
+
 ### Installation (Kurzform)
-`composer require ecs/noregmail:dev-master`
+`composer require ecs/noregmail`
+
 
 ### Installation (Langform)
 - Erstellen Sie via SSH-Client eine Verbindung mit dem Server, auf dem Ihr OXID eShop liegt.
 - Wechseln Sie in Ihr OXID-Projektverzeichnis, in dem sich die Datei composer.json sowie die source- und vendor-Ordner befinden.
-- Führen Sie dort folgenden Befehl aus: `composer require ecs/noregmail:dev-master`
+- Führen Sie dort folgenden Befehl aus: `composer require ecs/noregmail`
 - Loggen Sie sich in Ihren Shop-Admin ein und aktivieren das neue Modul unter Erweiterungen/Module.
+
 
 ### License
 This program is free software: you can redistribute it and/or modify
@@ -29,4 +35,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-

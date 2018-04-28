@@ -21,10 +21,10 @@ $aModule = array(
     'id'            => 'ecs_noregmail',
     'title'         => '<strong style="color:#04B431;">e</strong><strong>ComStyle.de</strong>:  <i>NoRegisterMail</i>',
     'description'   => '<i>Nach einer Kundenregistrierung wird keine Best&auml;tigungsemail versendet.</i>',
-    'version'       => '2.0',
+    'version'       => '2.0.1',
     'thumbnail'     => 'ecs.png',
     'author'        => '<strong style="font-size: 17px;color:#04B431;">e</strong><strong style="font-size: 16px;">ComStyle.de</strong>',
-    'email'         => 'info@ecomstyle.de',
+    'email'         => 'support@ecomstyle.de',
     'url'           => 'https://ecomstyle.de',
     'extend'        => array(
         \OxidEsales\Eshop\Core\Email::class => Ecs\NoRegMail\Core\Email::class,

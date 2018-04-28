@@ -17,6 +17,6 @@
  *    along with this program.  If not, see {http://www.gnu.org/licenses/}.
  */
 $aLang = array(
-    'charset'                                   => 'ISO-8859-15',
+    'charset'                                   => 'UTF-8',
     'MESSAGE_CONFIRMING_REGISTRATION'           => 'Ihre Registrierung wurde erfolgreich abgeschlossen.<br><br><br><br><br><br>',
 );
