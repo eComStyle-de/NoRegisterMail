@@ -1,7 +1,7 @@
 <?php
 /*    Please retain this copyright header in all versions of the software
  *
- *    Copyright (C) Josef A. Puckl | eComStyle.de
+ *    Copyright (C) 2015  Josef A. Puckl | eComStyle.de
  *
  *    This program is free software: you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
@@ -18,5 +18,5 @@
  */
 $aLang = array(
     'charset'                                   => 'ISO-8859-15',
-    'MESSAGE_CONFIRMING_REGISTRATION'           => 'Ihre Registrierung wurde erfolgreich abgeschlossen.<br><br><br><br><br><br>',
+    'MESSAGE_CONFIRMING_REGISTRATION'           => 'Ihre Registrierung wurde erfolgreich abgeschlossen.',
 );

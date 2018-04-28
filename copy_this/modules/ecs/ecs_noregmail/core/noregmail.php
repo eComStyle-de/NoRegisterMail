@@ -2,7 +2,7 @@
 
 /*    Please retain this copyright header in all versions of the software
 *
-*    Copyright (C) Josef A. Puckl | eComStyle.de
+*    Copyright (C) 2015  Josef A. Puckl | eComStyle.de
 *
 *    This program is free software: you can redistribute it and/or modify
 *    it under the terms of the GNU General Public License as published by
@@ -17,9 +17,7 @@
 *    You should have received a copy of the GNU General Public License
 *    along with this program.  If not, see {http://www.gnu.org/licenses/}.
 */
-namespace Ecs\NoRegMail\Core;
-
-class Email extends Email_parent {
+class noregmail extends noregmail_parent {
 
 	public function sendRegisterEmail($oUser, $sSubject = null) {
 		return;
